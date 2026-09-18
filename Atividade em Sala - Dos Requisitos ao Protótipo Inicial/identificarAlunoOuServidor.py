@@ -1,5 +1,7 @@
 # Identificar carros de alunos em vagas de funcionários. (25 minutos)
 
+
+# classe Placa, registrada previamente no sistema, com numero da placa, e se pertence a um carro de servidor
 class Placa_Carro:
     def __init__(self, placa, is_servidor):
         self.placa = placa
@@ -8,6 +10,8 @@ class Placa_Carro:
         elif is_servidor == False:
             self.servidor = False;
 
+
+# faz a verificação se a placa do carro estacionado é de um servidor
 def identifica_servidor(placa_carro):
     if placa_carro.servidor == True:
         print("Estacionado Corretamente")

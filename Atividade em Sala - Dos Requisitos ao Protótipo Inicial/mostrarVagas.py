@@ -1,4 +1,4 @@
-# Mostrar vagas disponíveis em tempo real.
+# Mostrar vagas disponíveis em tempo real. (25 minutos)
 import numpy as np
 
 #imaginando que tem 9 vagas, cada elemento é uma vaga
@@ -21,6 +21,7 @@ def atualizaVaga(matriz, vaga, bool):
         Vaga.is_ocupada = False
 
 
+#varredura nas vagas para ver disponibilidade
 def informaDisponibilidade(matriz):
     disponiveis = []
     for i in range(len(matriz)):
