@@ -8,4 +8,4 @@ Há uma classe para todas as placas previamente cadastradas no sistema, um senso
 Guarda as vagas em uma matriz de zeros (vagas disponiveis) em que cada elemento é uma classe vaga, que possui coordenada x e y na matriz, quando um "sensor" ve um carro em uma vaga, ele atualiza a vaga para 1 na matriz(ocupado)
 
 ## Autoavaliação
-Acredito ter implementado de maneira simples mas adequado de acordo com o tempo proposto, poderia ter tentado me desafiar mais e tentar algo mais complexo, também poderia ter usado ia em vez de pesquisar documentação e codigos de exemplo.
+Acredito ter implementado de maneira simples mas adequado de acordo com o tempo proposto, poderia ter tentado me desafiar mais e tentar algo mais complexo, também poderia ter usado ia em vez de pesquisar documentação e codigos de exemplo. As saídas sairam conforme esperado, para um projeto não dinâmico foi fácil, para algo mais complexo o código provavelmente seria mais complexo. Requisito maís difícil foi o retornar as vagas disponíveis, pois exigiu rever conceitos de matriz e varredura
